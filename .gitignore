@@ -1,0 +1,6 @@
+/build
+/install
+/vendor
+/.vscode
+/.idea
+.DS_Store
