@@ -23,5 +23,4 @@ static inline std::shared_ptr<spdlog::logger> get_logger() {
 
 int main() {
     LOGI("Hello {}", "world");
-    return 0;
 }
