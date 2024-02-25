@@ -4,18 +4,10 @@ set -e
 base_dir="$(pwd)"
 
 rm -rf install
-rm -rf vendor
 rm -rf build
 
 mkdir -p install
-mkdir -p vendor
 
-echo "Clone fmt"
-git clone https://github.com/fmtlib/fmt vendor/fmt
-
-echo "Checkout fmt 10.0.0"
-cd vendor/fmt
-git checkout 10.0.0
 cd "${base_dir}"
 
 echo "Build fmt"
